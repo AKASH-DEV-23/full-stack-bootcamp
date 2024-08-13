@@ -1,0 +1,51 @@
+h1{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 70%;
+  margin-bottom: 7px;
+  margin: 7px;
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: darkmagenta;
+  text-align: right;
+  color: rgb(243, 9, 165);
+}
+.main-div {
+  display: grid;
+  align-items: center;
+  background-color: aqua;
+  margin-top: 20px;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+  gap: 20px;
+  border-radius: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(243, 16, 16);
+}
+
+.main-div > div > button {
+  font-size: 15px;
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  margin-right: 7px;
+  border-width: 1px;
+  border-color: rgb(238, 40, 212);
+  border-style: solid;
+  cursor: pointer;
+}

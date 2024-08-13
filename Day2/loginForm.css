@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: aquamarine;
+}
+.main-div{
+    margin-top: 4rem;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+nav{
+    height: 50px;
+    background-color: blanchedalmond;
+    padding-top: 20px;
+}
+input{
+    padding:8px;
+    border-style: none;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+button{
+    padding: 12px 18px 12px 18px;
+    margin-top: 12px;
+    background-color: #fff;
+    border-style: none;
+    border-radius: 6px;
+}
+.inner-div{
+    background-color: beige;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 8px;
+    border-style: dashed;
+    border-radius: 16px;;
+}

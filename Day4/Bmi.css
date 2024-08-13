@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.footer > h1{
+    margin-bottom: 10px;
+}
+
+label{
+    margin-right: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 300px;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+}
+.input-div > input{
+    padding: 10px;
+    margin-right: 10px;
+}
+input{
+    padding: 15px;
+    width: 70px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+button{
+    margin-top: 15px;
+    padding: 10px;
+    margin-right: 20px;
+    width: 100px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+}
+.label-height{
+    margin-right: 15px;
+    margin-top: 20px;
+
+}

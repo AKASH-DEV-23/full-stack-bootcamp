@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    background-color: azure;
+}
+
+.main-div {
+    padding: 20px;
+}
+
+.inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.form {
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+.form>input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.form>#sign-in {
+    padding: 16px 8px 16px 8px;
+    border-radius: 24px;
+    border-style: none;
+    background-color: rgb(57, 57, 255);
+    color: #fff;
+}
+
+.form>button {
+    padding: 12px 8px 12px 8px;
+    border-radius: 20px;
+
+    background-color: #fff;
+}
+
+.form>p>span {
+    color: blue;
+}
+
+.form>p {
+    text-align: center;
+}
+
+.main-div>p {
+    text-align: center;
+    margin-top: 16px;
+}
+
+footer {
+    display: flex;
+    gap: 40px;
+    color: gray;
+}

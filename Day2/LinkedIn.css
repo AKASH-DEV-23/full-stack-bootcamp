@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    max-width: 1300px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    font-size: larger;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+h1{
+    font-size: 80px;
+    font-weight: 200;
+}
+.button-div > button{
+    padding: 12px 6px 12px 6px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button-div-two > button{
+    padding: 20px 30px 20px 30px;
+    font-size: medium;
+    color:gray; 
+    border-color: gray;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.main-body-div{   
+    display:flex;
+    padding: 40px 0px 40px 0px;
+}
+.main-body-div-copy > .cards > h1{
+        font-size: 40px;
+}
+.parent-body{
+    max-width: 1300px;
+    margin: auto;
+}
+.main-body-inner-div-one{
+    padding: 24px 0px 24px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.main-body-div-three{
+    margin-top: 40px;;
+    background-color:rgb(241, 235, 228);
+    text-align: center;
+    padding:80px 40px 80px 40px;
+}
+.main-body-div-three > h1{
+    font-size: 50px;
+}
+.main-body-div-three > button{
+    margin-top:20px;
+    padding: 20px 30px 20px 30px;
+    font-size: medium;
+    border: 1px solid blue;
+    border-radius: 50px;
+    color: blue;
+    background-color:rgb(241, 235, 228);
+}
+.main-body-inner-div-two{
+    width: 50%;
+    padding-top: 25px;
+    padding-right: 120px;
+}
+.main-body-inner-div-two > p{
+    font-size: 20px;
+    margin-top:20px;
+}
+.main-body-inner-div-two > h1{
+    font-size: 50px;
+}
+.button-div{
+    width: min-content;
+}
+.button-div > p{
+    margin: 16px;
+    padding:10px 30px 10px 30px;
+}
+.button-div > p > span{
+    color: rgb(27, 101, 238);
+}
+.button-div > p > a{
+    color: rgb(27, 101, 238);
+}
+.main-body-div-color{
+    display: flex;
+    margin-top: 40px;;
+    background-color:rgb(241, 235, 228);
+    padding:80px;
+    align-items: center;
+}
+.main-body-div-color > .content{
+    max-width: 1300px;
+    margin: auto;
+}
+.main-body-div-color > div > p{
+    padding-top: 30px;
+    font-size: 25px;
+}
+footer{
+    padding:40px;
+    background-color: rgb(231, 229, 229)
+    
+}
+footer > div > .list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+footer > div{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    gap: 200px;
+}
+.main-body-div-copy{   
+    display:flex;
+    justify-content: center;
+    padding: 80px 0px 80px 0px;
+    gap: 100px;
+}
+.main-body-div-copy > .cards > button{
+    margin-top:20px;
+    padding: 20px 30px 20px 30px;
+    font-size: medium;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color:#fff;
+}
