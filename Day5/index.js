@@ -10,8 +10,7 @@
 // console.log(a);
 //  a.pop();
 
-
-let bike = ["honda", "bmw", "bjaj","kawasaki"];
+let bike = ["honda", "bmw", "bjaj", "kawasaki"];
 // let car = ["maruti", "audio", "scorpio"];
 
 // let allV = bike.concat(car);
@@ -52,7 +51,9 @@ console.log(bike);
 //  2D Array
 
 let matrix = [
-    [1,2,3],[4,5,6],[7,8,9]
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
 ];
 
 console.log(matrix);
@@ -60,31 +61,30 @@ console.log(matrix[2][2]);
 
 console.log(matrix[1][0]);
 
-
 // IMP Spread and rest
 //  (...) spread operators => expand the array
 
-let arr1 = [1,2,3];
-let arr2 = [...arr1,4,5,6];
+let arr1 = [1, 2, 3];
+let arr2 = [...arr1, 4, 5, 6];
 console.log(arr2);
 console.log(arr1);
 
 // (...) rest operator
 
-function sum(...number){
-    return number.reduce((a,b) => a+b)
+function sum(...number) {
+  return number.reduce((a, b) => a + b);
 }
-console.log(sum(1,2,3));
+console.log(sum(1, 2, 3));
 
 // destructing array
 
-let[first,second,third] = bike
+let [first, second, third] = bike;
 console.log(first);
 console.log(second);
 
 //  array membership
 
-console.log(bike.includes('bmw'));
+console.log(bike.includes("bmw"));
 
 //  sorting arrays
 
@@ -93,18 +93,9 @@ console.log(bike);
 const y = bike.sort();
 console.log(y);
 
+let num = [10, 20, 30, 111];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let max = Math.max(...num);
+let min = Math.min(...num);
+console.log(max);
+console.log(min);
