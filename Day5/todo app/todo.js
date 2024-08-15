@@ -8,11 +8,11 @@ function add() {
     let newEle = document.createElement("ul");
     newEle.innerHTML = `${input.value} <i class="fa-solid fa-trash"></i>`;
 
-    text.appendChild(newEle);
+    text.appendChild(newEle);   
     input.value = "";
     newEle.querySelector("i").addEventListener("click", remove);
     function remove() {
       newEle.remove();
     }
-  }
+  } 
 }

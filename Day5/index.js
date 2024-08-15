@@ -61,7 +61,10 @@ console.log(matrix[2][2]);
 
 console.log(matrix[1][0]);
 
-// IMP Spread and rest
+
+// IMP Spread and rest destructing 
+
+
 //  (...) spread operators => expand the array
 
 let arr1 = [1, 2, 3];
